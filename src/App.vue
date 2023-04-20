@@ -10,7 +10,6 @@
       leave-from-class="opacity-100 scale-100"
       leave-active-class="transition-all transform duration-1000"
       leave-to-class="opacity-0 scale-75"
-      :duration="3000"
     >
       <div
         class="text-center p-8 rounded-full bg-white w-[650px] h-[650px] shadow-lg"
