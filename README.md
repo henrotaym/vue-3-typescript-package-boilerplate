@@ -1,4 +1,4 @@
-# Available scripts
+# Typescript vue 3 package boilerplate 🔥
 
 ## Initialization
 ```shell
