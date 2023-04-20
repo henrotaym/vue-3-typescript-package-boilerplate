@@ -1,5 +1,6 @@
 {
   "name": "@henrotaym/vue-3-typescript-package-boilerplate",
+  "description": "Boilerplate to start a vue 3 package easily.",
   "private": false,
   "version": "0.0.0",
   "type": "module",
