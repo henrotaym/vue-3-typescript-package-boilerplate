@@ -3,9 +3,11 @@
   "description": "Boilerplate to start a vue 3 package easily.",
   "private": false,
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "exports": {
