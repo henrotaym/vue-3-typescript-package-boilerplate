@@ -1,2 +1,1 @@
-// Silence is golden
-export * from "./components";
+// Silence is golden 🤫
