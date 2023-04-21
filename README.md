@@ -22,7 +22,7 @@
 ```
 
 ### Publish versions
-You should install npm locally and authenticate yourself first.
+***DO NOT USE NPM LOCALLY TO PUBLISH***
 ```shell
-npm version patch
+./cli version patch
 ```
