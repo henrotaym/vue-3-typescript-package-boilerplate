@@ -1,18 +1,13 @@
 #!/bin/bash
 cd ./scripts
 
-if [ "$1" == "version" ]
-    then ./version $2
-fi
-
-
 if [ "$1" == "bootstrap" ]
     then 
         ./bootstrap && ./start
 fi
 
 if [ "$1" == "start" ]
-    then 
+    then
         ./start
 fi
 
@@ -21,9 +16,14 @@ if [ "$1" == "stop" ]
         ./stop
 fi
 
+if [ "$1" == "version" ]
+    then 
+        ./version $2
+fi
+
 if [ "$1" == "yarn" ]
     then 
-        ./yarn $*
+        ./app $*
 fi
 
 cd ../
