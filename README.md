@@ -22,7 +22,6 @@
 ```
 
 ### Publish versions
-***DO NOT USE NPM LOCALLY TO PUBLISH***
 ```shell
 ./cli version patch
 ```
