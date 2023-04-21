@@ -1,21 +1,29 @@
 #!/bin/bash
+cd ./scripts
+
+if [ "$1" == "version" ]
+    then ./version $2
+fi
+
 
 if [ "$1" == "bootstrap" ]
     then 
-        ./scripts/bootstrap && ./scripts/start
+        ./bootstrap && ./start
 fi
 
 if [ "$1" == "start" ]
     then 
-        ./scripts/start
+        ./start
 fi
 
 if [ "$1" == "stop" ]
     then 
-        ./scripts/stop
+        ./stop
 fi
 
 if [ "$1" == "yarn" ]
     then 
-        ./scripts/yarn $*
+        ./yarn $*
 fi
+
+cd ../

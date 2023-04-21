@@ -6,8 +6,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-dist
-dist-ssr
 *.local
 
 # Editor directories and files
@@ -21,10 +19,10 @@ dist-ssr
 *.sw?
 
 .vscode
-dist
 node_modules
 .gitignore
 cli
+scripts
 docker-compose.yml
 Dockerfile
 README.md
