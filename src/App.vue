@@ -15,10 +15,15 @@
         class="text-center p-8 rounded-full bg-white w-[650px] h-[650px] shadow-lg"
       >
         <div>
-          <div class="text-[300px]">🎉</div>
-          <div class="text-2xl text-gray-600 font-thin">
-            Let's build something amazing !
+          <div v-if="$testastos.isLoading" class="text-[300px] animate-pulse">
+            🚧
           </div>
+          <template v-else>
+            <div class="text-[300px]">🎉</div>
+            <div class="text-2xl text-gray-600 font-thin mb-8">
+              Welcome {{ $testastos.name }} !
+            </div>
+          </template>
         </div>
       </div>
     </Transition>
@@ -26,5 +31,7 @@
 </template>
 
 <script setup lang="ts">
-// Import your library here.
+import { useTestastos } from "./lib";
+const testastos = useTestastos();
+testastos.fetchNewName();
 </script>
